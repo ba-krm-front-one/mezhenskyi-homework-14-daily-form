@@ -11,15 +11,17 @@ body {
     font-family: Arial, sans-serif;
 }
 .ba-container {
-    width: 460px;
-    height: 470px;
+    max-width: 460px;
+    min-width: 200px;
+    min-height: 470px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     background-color: #ffffff;
     margin: 65px auto;
 }
 .ba-header-content {
-    width: 395px;
+    max-width: 395px;
+    min-width: 200px;
     margin: 0 auto;
     padding-top: 27px;
 }
@@ -30,8 +32,8 @@ body {
     margin-right: 10px;
 }
 .ba-header__title {
-    width: 320px;
-    height: 22px;
+    max-width: 320px;
+    min-width: 160px;
     color: #1b1c1d;
     font-size: 24px;
     font-weight: 700;
@@ -39,8 +41,9 @@ body {
     margin: 0 0 15px 0;
 }
 .ba-header__text {
-    width: 395px;
-    height: 33px;
+    max-width: 395px;
+    min-width: 200px;
+
     font-size: 13px;
 }
 .ba-text {
@@ -54,7 +57,7 @@ body {
 }
 .ba-form-content {
     max-width: 400px;
-    min-width: 200px;
+    min-width: 150px;
     margin: 0 auto;
 }
 .ba-input__style {
@@ -82,7 +85,7 @@ body {
     min-width: 100px;
 }
 .ba-form-button {
-    width: 400px;
+    width: 100%;
     height: 50px;
     box-shadow: 0 3px 0 #bd1962;
     border-radius: 4px;
@@ -94,15 +97,15 @@ body {
     font-weight: 700;
     line-height: 18px;
 }
-
-
 .ba-footer-content {
-    width: 395px;
+    max-width: 395px;
+    min-width: 200px;
     margin: 0 auto;
     padding-bottom: 61px;
 }
 .ba-footer__text {
-    width: 384px;
+    max-width: 384px;
+    min-width: 180px;
     height: 31px;
     font-size: 12px;
 }
